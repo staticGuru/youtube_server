@@ -5,7 +5,7 @@ const NodeCache = require('node-cache');
 const cache = new NodeCache();
 
 const hostname = process?.env?.HOST || 'localhost';
-const port = process?.env?.PORT;
+const port = 8000;
 
 const successCacheAge = 14400; // 4hrs
 const errorCacheAge = 3600; // 1hrs
