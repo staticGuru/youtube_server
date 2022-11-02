@@ -5,6 +5,14 @@
   "author": "Guruvignesh",
   "license": "ISC",
   "private": true,
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "dependencies": {
     "node-cache": "^5.1.2",
     "ytdl-core": "^4.11.0"
