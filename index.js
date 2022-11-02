@@ -4,7 +4,7 @@ const url = require('url');
 const NodeCache = require('node-cache');
 const cache = new NodeCache();
 
-const hostname = process?.env?.host || 'https://dry-river-20727.herokuapp.com';
+const hostname = process?.env?.HOST || 'localhost';
 const port = process?.env?.PORT;
 
 const successCacheAge = 14400; // 4hrs
